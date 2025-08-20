@@ -1,0 +1,25 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / Secrets
+.env
+
+# Office temp files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+weather_data.csv
+time_series_60min_singleindex.csv
