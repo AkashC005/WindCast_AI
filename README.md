@@ -9,8 +9,8 @@ It combines meteorological data (via the Open-Meteo API) and historical wind dat
 ```
 Artefact/
 ├── code.ipynb
-├── weather_data.csv              # Large dataset (stored externally)
-├── time_series_60min_singleindex.csv   # Large dataset (stored externally)
+├── weather_data.csv              
+├── time_series_60min_singleindex.csv  
 ├── london_nwp_data.csv           # Fetched automatically from API
 ├── README.md
 └── .gitignore
@@ -19,8 +19,8 @@ Artefact/
 ---
 
 ## 📊 Datasets
-- `weather_data.csv` (large, hosted on Google Drive)  
-- `time_series_60min_singleindex.csv` (large, hosted on Google Drive)  
+- `weather_data.csv` (https://drive.google.com/file/d/1hTtM-adCd2oszPDFQ2OF_MvwoJNbfBHd/view?usp=drive_link)  
+- `time_series_60min_singleindex.csv` (https://drive.google.com/file/d/1B2IcAIKTiAhacSn3ve_23h5IrbsCmgmZ/view?usp=drive_link)  
 
 👉 Download them from Drive and place in the same folder as `code.ipynb`.  
 Since they exceed GitHub’s 100MB file limit, they are not stored directly in this repository.  
@@ -93,5 +93,5 @@ Fix:
 
 ---
 
-## 👤 Maintainer
+##
 Developed by **Akash C.**
