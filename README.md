@@ -5,7 +5,7 @@ It combines meteorological data (via the Open-Meteo API) and historical wind dat
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```
 Artefact/
 ├── code.ipynb
@@ -18,7 +18,7 @@ Artefact/
 
 ---
 
-## 📊 Datasets
+##  Datasets
 - `weather_data.csv` (https://drive.google.com/file/d/1hTtM-adCd2oszPDFQ2OF_MvwoJNbfBHd/view?usp=drive_link)  
 - `time_series_60min_singleindex.csv` (https://drive.google.com/file/d/1B2IcAIKTiAhacSn3ve_23h5IrbsCmgmZ/view?usp=drive_link)  
 
@@ -40,7 +40,7 @@ For quick testing, you can also create smaller **sample CSVs** with fewer rows.
 
 ---
 
-## 🚀 Running the Script
+##  Running the Script
 1. Install dependencies:
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn tensorflow shap requests
@@ -55,7 +55,7 @@ For quick testing, you can also create smaller **sample CSVs** with fewer rows.
 
 ---
 
-## 📈 Outputs
+##  Outputs
 The notebook generates:
 - Evaluation table (R², RMSE, MAE)  
 - Actual vs. Predicted line and scatter plots  
@@ -65,7 +65,7 @@ These outputs help measure model accuracy and interpret which features drive pre
 
 ---
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 - Make sure all files are in the same directory as `code.ipynb`.  
 - Verify all required packages are installed.  
 - If the API call fails, check your internet connection and retry.  
